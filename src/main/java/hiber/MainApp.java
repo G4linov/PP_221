@@ -26,6 +26,11 @@ public class MainApp {
       User user3 = new User("User3", "Lastname3", "user3@mail.ru");
       User user4 = new User("User4", "Lastname4", "user4@mail.ru");
 
+      car1.setUser(user1);
+      car2.setUser(user2);
+      car3.setUser(user3);
+      car4.setUser(user4);
+
       user1.setCar(car1);
       user2.setCar(car2);
       user3.setCar(car3);

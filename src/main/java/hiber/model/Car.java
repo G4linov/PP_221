@@ -63,6 +63,6 @@ public class Car {
 
     @Override
     public String toString() {
-        return this.model + " - " + this.series;
+        return this.model + "-" + this.series;
     }
 }
